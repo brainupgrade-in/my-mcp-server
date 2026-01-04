@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "greeting": {
+      "command": "node",
+      "args": ["/home/rajesh/my-mcp-server/dist/index.js"]
+    }
+  }
+}
