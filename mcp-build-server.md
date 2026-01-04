@@ -6,7 +6,9 @@ This guide accompanies **Video 4: Build Your Own MCP Server** from the [Gheware 
 
 📺 **Watch the full playlist:** [MCP Masterclass](https://www.youtube.com/playlist?list=PLqGvN2U9LT-ukrMpG3SsyjtwK72qjIc54)
 
-📖 **Setup Guide:** [mcp-setup.md](./mcp-setup.md) - Install prerequisites and configure your MCP host
+📖 **Setup Guide:** [MCP Setup Guide](https://github.com/brainupgrade-in/mcp-server-typescript-starter/blob/main/mcp-setup.md) - Install prerequisites and configure your MCP host
+
+🔗 **This Repository:** [my-mcp-server](https://github.com/brainupgrade-in/my-mcp-server)
 
 ---
 
@@ -583,8 +585,9 @@ Try adding this tool yourself:
 - [MCP Server Examples](https://github.com/modelcontextprotocol/servers)
 
 ### This Repository
-- [Setup Guide](./mcp-setup.md) - Installation and configuration
+- [README](./README.md) - Quick start guide
 - [Example Config](./examples/claude_desktop_config.json) - Claude Desktop configuration
+- [Setup Guide](https://github.com/brainupgrade-in/mcp-server-typescript-starter/blob/main/mcp-setup.md) - Full installation guide
 
 ---
 
