@@ -371,12 +371,46 @@ This opens a browser UI where you can:
 3. Browse the `greeting://templates` resource
 4. Read resource contents
 
+### Test with Claude Code CLI
+
+The easiest way to add your MCP server:
+
+```bash
+claude mcp add --transport stdio greeting -- node /full/path/to/my-mcp-server/dist/index.js
+```
+
+**Scope Options:**
+
+| Flag | Scope | Config Location |
+|------|-------|-----------------|
+| `--local` | Current project only (default) | `./.claude.json` |
+| `--project` | Project, shared with team | `./.mcp.json` (commit to git) |
+| `--user` | All your projects | `~/.claude.json` |
+
+**Verify Connection:**
+
+```bash
+claude mcp list
+```
+
+Expected output:
+```
+greeting: node /full/path/to/my-mcp-server/dist/index.js - ✓ Connected
+```
+
+**Remove Server:**
+
+```bash
+claude mcp remove greeting
+```
+
 ### Test in Claude Desktop
 
 1. Add to your Claude Desktop config:
 
 **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+**Linux:** `~/.config/Claude/claude_desktop_config.json`
 
 ```json
 {
@@ -566,7 +600,7 @@ Try adding this tool yourself:
 | 1 | What is MCP? | ✅ Published | [Watch](https://www.youtube.com/watch?v=sMzEGEv-6-4) |
 | 2 | MCP Architecture | ✅ Published | [Watch](https://www.youtube.com/watch?v=t7O9T6UxK5k) |
 | 3 | Install MCP Server | ✅ Published | [Watch](https://www.youtube.com/watch?v=lbLNb2eNmf8) |
-| 4 | **Build Your Own Server** | 📍 YOU ARE HERE | Coming Soon |
+| 4 | **Build Your Own Server** | 📍 YOU ARE HERE | [Watch](https://www.youtube.com/watch?v=xLASLzK3w90) |
 | 5 | AI + Database | ⏳ Pending | Coming Soon |
 
 ---
